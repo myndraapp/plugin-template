@@ -1,0 +1,14 @@
+{
+    "name": "your-org.plugin.your-plugin",
+    "version": "0.1.0",
+    "displayName": "Your Plugin",
+    "description": "Short description of your plugin",
+    "entry": "./dist/index.js",
+    "author": "Your Name",
+    "category": "third-party",
+    "engine": ">=0.0.0",
+    "permissions": [
+        "commands:register",
+        "glyphs:register"
+    ]
+}

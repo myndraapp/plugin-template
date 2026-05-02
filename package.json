@@ -1,0 +1,22 @@
+{
+    "name": "@your-org/myndra-plugin-template",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Template repository for Myndra third-party plugins",
+    "type": "module",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "build": "node build.mjs",
+        "watch": "node build.mjs --watch",
+        "clean": "rm -rf dist",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@myndra/plugin-sdk": "^0.1.0",
+        "esbuild": "^0.25.0",
+        "typescript": "~5.8.0"
+    },
+    "license": "MIT"
+}
