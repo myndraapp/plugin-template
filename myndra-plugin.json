@@ -9,6 +9,8 @@
     "engine": ">=0.0.0",
     "permissions": [
         "commands:register",
-        "glyphs:register"
+        "glyphs:register",
+        "graph:read",
+        "graph:session"
     ]
 }
